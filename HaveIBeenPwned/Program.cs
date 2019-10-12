@@ -1,7 +1,7 @@
-﻿using GrainInterfaces;
-using Microsoft.Extensions.Logging;
+﻿using Microsoft.Extensions.Logging;
 using Orleans;
 using Orleans.Configuration;
+using Share;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -223,7 +223,7 @@ namespace HaveIBeenPwned
                         var description = Console.ReadLine();
 
                         var userEmail = await grain.AddEmailAddress(email, description);
-                        if (userEmail.Message.Status == GrainAccessibility.Status.PWNED)
+                        if (userEmail.Message.Status == Share.Status.OK)
                             Console.WriteLine("Email sucessfully added");
                         else
                             Console.WriteLine(userEmail.Message.ToString());

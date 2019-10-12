@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GrainAccessibility
+namespace Share
 {
     /// <summary>
     /// Example of holding the string constants in one class

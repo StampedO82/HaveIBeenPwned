@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace GrainAccessibility
+namespace Share
 {
     public class Description
     {

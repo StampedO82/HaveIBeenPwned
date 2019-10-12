@@ -7,7 +7,6 @@ using System.Web.Http;
 using System.Web.Security;
 using System.Web.SessionState;
 using EmailWebApi.Configuration;
-using GrainInterfaces;
 using Orleans;
 using Orleans.Configuration;
 

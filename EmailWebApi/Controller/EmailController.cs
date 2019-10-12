@@ -1,8 +1,7 @@
 ﻿using EmailWebApi.Configuration;
-using GrainAccessibility;
-using GrainInterfaces;
 using System;
 using System.Web.Http;
+using Share;
 
 namespace EmailWebApi.Controller
 {

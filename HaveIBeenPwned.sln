@@ -7,11 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaveIBeenPwned", "HaveIBeen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailGrain", "EmailGrain\EmailGrain.csproj", "{942C2302-AA59-4729-BFC7-8068EEE136EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Share", "EmailGrainInterface\Share.csproj", "{7EECA20B-65A2-44DB-84B6-416447AD71DA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Share", "Share\Share.csproj", "{7EECA20B-65A2-44DB-84B6-416447AD71DA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailSilo", "EmailSilo\EmailSilo.csproj", "{BB5EAA63-DCDE-495B-B761-4482AAFC5BB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailWebApi", "WebApplication3\EmailWebApi.csproj", "{AB09C1BE-4A4B-4A26-AF14-6EDAF14ED260}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailWebApi", "EmailWebApi\EmailWebApi.csproj", "{AB09C1BE-4A4B-4A26-AF14-6EDAF14ED260}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

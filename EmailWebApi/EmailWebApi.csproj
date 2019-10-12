@@ -366,7 +366,7 @@
     <Folder Include="Views\Hello\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\EmailGrainInterface\Share.csproj">
+    <ProjectReference Include="..\Share\Share.csproj">
       <Project>{7eeca20b-65a2-44db-84b6-416447ad71da}</Project>
       <Name>Share</Name>
     </ProjectReference>

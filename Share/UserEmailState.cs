@@ -6,7 +6,7 @@ using System.Net.Mail;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GrainAccessibility
+namespace Share
 {
     [Serializable]
     public class UserEmailState
@@ -100,7 +100,7 @@ namespace GrainAccessibility
 
         public void VerifyHost(string validHost)
         {
-            Message = !validHost.EndsWith(Host) ? new Message(GrainAccessibility.Status.HOST_NOT_SUPPORTED, Constants.INVALID_EMAIL_DOMAIN) : Message;
+            Message = !validHost.EndsWith(Host) ? new Message(Share.Status.HOST_NOT_SUPPORTED, Constants.INVALID_EMAIL_DOMAIN) : Message;
         }
     }
 }

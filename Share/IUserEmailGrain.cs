@@ -1,4 +1,4 @@
-﻿using GrainAccessibility;
+﻿using Share;
 using Orleans;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Net.Mail;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GrainInterfaces
+namespace Share
 {
     public interface IUserEmailGrain : Orleans.IGrainWithStringKey, IRemindable
     {
